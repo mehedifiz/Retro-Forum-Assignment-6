@@ -46,7 +46,7 @@ function showLatest(data){
        const newPostDiv = document.getElementById('latestPosts');
        const newPost = document.createElement('div');
        newPost.innerHTML =  `
-           <div class="m-2 xl:max-w-sm bg-white border rounded-lg shadow-lg border-l-4 border-l-red-500  border-b-8 border-b-red-500">
+           <div class="m-2 xl:max-w-sm bg-white border rounded-lg shadow-lg border-l-4 border-l-green-500  border-b-8 border-orange-500">
                <div class = "">
                    <img class="" src="${detum.cover_image}" alt="" />
                </div>
